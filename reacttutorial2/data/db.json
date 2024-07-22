@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "React",
+      "datetime": "01-Jun",
+      "body": "React-Learing"
+    },
+    {
+      "id": 2,
+      "title": "HTML",
+      "datetime": "01-Apr",
+      "body": "HTML-Learning"
+    },
+    {
+      "id": 3,
+      "title": "CSS",
+      "datetime": "June 20, 2023 8:43:39 AM",
+      "body": "CSS-Learned"
+    },
+    {
+      "id": 4,
+      "title": "BOOTSTRAP",
+      "datetime": "June 21, 2023 8:02:27 AM",
+      "body": "BOOTSTRAP-Learned\n"
+    }
+  ]
+}
