@@ -5,6 +5,7 @@ import Sea from '../models/Sea'
 import Sky from '../models/Sky'
 import Bird from '../models/Bird'
 import Plane from '../models/Plane'
+import HomeInfo from './HomeInfo'
 
 const Animations = () => {
 
@@ -39,8 +40,11 @@ const Animations = () => {
     const [planeScale, planePosition] = adjustPlaneScreenSize()
 
     return (
-        <div style={{ height: "500px", width: "auto", position: "relative", }} className={`${isRotating ? "cursor-grabbing" : "cursor-grab"}`} >
-            <Canvas className='w-100 h-100 bg-transparent' camera={{ near: 0.1, far: 1000 }}>
+        <div className='w-full h-screen relative' >
+            <div className='absolute top-5 left-0 right-0 z-10 flex items-center justify-center'>
+                {currentStage && <HomeInfo currentStage={currentStage} />}
+            </div>
+            <Canvas className={`w-full h-screen bg-transparent ${isRotating ? "cursor-grabbing" : "cursor-grab"}`} camera={{ near: 0.1, far: 1000 }}>
                 <Suspense fallback={<Loader />}>
                     <directionalLight position={[1, 1, 1]} intensity={2} />
                     <ambientLight intensity={0.5} />

@@ -1,0 +1,50 @@
+html {
+  background-color: black;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+/* weekday label size */
+.react-activity-calendar__legend-weekday {
+  font-size: 2vw;
+}
+
+/* month label size */
+.react-activity-calendar__legend-month {
+  font-size: 2vw;
+}
+
+/* total contributions size */
+.react-activity-calendar__count {
+  font-size: 2vw;
+}
+
+/* legend size */
+.react-activity-calendar__legend-colors,
+.styles_legendColors__1wUi_ {
+  font-size: 2vw;
+  width: 30%;
+}
+
+/* legend block size */
+.react-activity-calendar__legend-colors,
+.styles_legendColors__1wUi_ svg {
+  height: 20%;
+
+  /* helps retain box shape */
+  border-radius: 20% !important;
+}
+
+.container {
+  padding: 30px;
+  background-color: black;
+  color: white;
+  padding-left: 40px;
+  font-size: 30px !important;
+  display: flex;
+  justify-content: center;
+}
