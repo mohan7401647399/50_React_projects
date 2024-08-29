@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.github-profile-container {
+  margin: 0 auto;
+  width: fit-content;
+  max-width: fit-content;
+  padding: 20px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+}
+
+.input-container button {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  background-color: #00f4ec;
+  cursor: pointer;
+  color: #000;
+}
+
+/* github-profile-container */
+.user {
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.avatar {
+  height: 150px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.name-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.name-container p {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile-info div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* SearchComponent */
+.search-autocomplete-container {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.search-autocomplete-container input {
+  width: fit-content;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* tic-tac-toe-container */
+.tic-tac-toe-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.square {
+  border: 1px solid red;
+  float: left;
+  font-size: 40px;
+  height: 100px;
+  padding: 0px;
+  text-align: center;
+  width: 100px;
+  margin-left: -1px;
+  margin-right: -1px;
+  cursor: pointer;
+}
